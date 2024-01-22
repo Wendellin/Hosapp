@@ -7,4 +7,6 @@ sudo curl -s https://getcomposer.org/installer | php
 sudo php composer.phar install
 sudo php composer.phar update
 sudo mv composer.phar /usr/local/bin/composer
+sudo composer init
+
 sudo cp .env.example .env
